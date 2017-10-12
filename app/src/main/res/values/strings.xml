@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UsvDemo</string>
+    <string name="button1">按钮1</string>
+    <string name="button2">按钮2</string>
+
+    <string name="demo_name_basemap">USV基本操作界面</string>
+    <string name="demo_title_basemap">USV操作界面</string>
+    <string name="demo_desc_basemap">创建一张百度地图并管理地图的生命周期, 包含个性化地图与普通地图切换功能</string>
+    <string name="demo_name_usvbasemap">USV主界面</string>
+    <string name="demo_title_usvbasemap">USV主界面</string>
+    <string name="demo_desc_usvbasemap">船舶航行界面</string>
+
+    <string name="title_activity_list_pollutions">ListPollutionsActivity</string>
+    <string name="title_activity_show_history">ShowHistory</string>
+</resources>

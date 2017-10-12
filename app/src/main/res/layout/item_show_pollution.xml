@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView 
+		android:id="@+id/ivItemPathImage"        
+        android:layout_alignParentRight="true"
+        android:layout_width="80sp"
+        android:layout_height="fill_parent"
+        />
+    
+    <TextView 
+        android:id="@+id/tvItemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+    
+	 <TextView 
+        android:id="@+id/tvItemDegree"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemTitle"
+        android:textSize="15sp"
+        android:textColor="#ffffff00"
+        />
+    <TextView 
+        android:id="@+id/tvItemPosition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemDegree"
+        android:textSize="15dp"
+        />
+     <TextView 
+        android:id="@+id/tvItemFindTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvItemPosition"
+        android:textSize="15dp"
+        />
+	 
+</RelativeLayout>

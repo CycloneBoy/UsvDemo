@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tvMarkerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="当前位置名称"
+        android:gravity="left"
+        />
+   <EditText 
+       android:id="@+id/etMarkerName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="fill_horizontal"
+       />
+   
+    
+   <TextView 
+       		android:id="@+id/tvMarkerType"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginRight="20dp"
+        	android:text="坐标点类型(1:障碍物;2:污染源):"
+        	android:gravity="left"/>
+   <EditText 
+       android:id="@+id/etMarkerType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="fill_horizontal"
+       />
+   
+    <TextView 
+       		android:id="@+id/tvMarkerDegree"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginRight="20dp"
+        	android:text="障碍物大小或污染程度(1:小或轻微;2:中或中度;3:大或严重):"
+        	android:gravity="left"/>
+   <EditText 
+       android:id="@+id/etMarkerDegree"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="fill_horizontal"
+       />
+  <!--  <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dip"
+        android:background="#D000"
+        android:minWidth="100dip"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+		
+		<TextView 
+       		android:id="@+id/tvMarkerType"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginRight="20dp"
+        	android:text="坐标点类型:"
+        	android:gravity="left"/>
+		
+		
+        <RadioGroup
+            android:id="@+id/radioGroupMarkerType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="坐标点类型" >
+
+            <RadioButton
+                android:id="@+id/rdMarkerObstacle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="障碍物" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rdMarkerPollution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="污染源" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+    
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dip"
+        android:background="#D000"
+        android:minWidth="100dip"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+       <TextView 
+       		android:id="@+id/tvMarkerTypeDegree"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dp"
+        	android:layout_marginRight="20dp"
+        	android:text="大小或严重程度:"
+        	android:gravity="left"/>
+       
+        <RadioGroup
+            android:id="@+id/radioGroupMarkerTypeDegree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="障碍物大小或污染程度" >
+
+            <RadioButton
+                android:id="@+id/rdMarkerTypeDegreeSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:text="小(轻微)" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rdMarkerTypeDegreeMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="中(中度)" >
+            </RadioButton>
+            
+            <RadioButton
+                android:id="@+id/rdMarkerTypeDegreeLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="大(严重)" >
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout> -->
+    
+   
+</LinearLayout>

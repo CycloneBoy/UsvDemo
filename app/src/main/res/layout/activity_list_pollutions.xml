@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cycloneboy.usvdemo.service.ListPollutionsActivity" >
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <Button 
+        	android:id="@+id/btnUploadRecord"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="上传本次记录"
+        	/>
+        
+         <Button 
+       	 	android:id="@+id/btnShowHistoryList"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="显示历史记录"
+        	/>
+        
+         <!--  <Button 
+        	android:id="@+id/btnDeleteAll"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="清空"
+        	/>-->
+      </LinearLayout>
+    
+     <TextView
+            android:id="@+id/tvListName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#ff99cc33"
+            />
+    
+    <TextView
+            android:id="@+id/tvShowInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="info:"
+            />
+    
+    <ListView 
+        android:id="@+id/lvShowPollution"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+    
+</LinearLayout>
